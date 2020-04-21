@@ -36,3 +36,86 @@
     transform: rotate(360deg);
   }
 }
+
+.login-main{
+  height: 100%;
+    width: 100%;
+}
+
+.header-main{
+  height: 50px;
+  background-color: #637a91;
+  text-align: center;
+  padding-top: 15px;;
+}
+
+.login-base{
+  height: 400px;
+    width: 550px;
+    border: 1px solid black;
+    margin-top: 10%;
+    margin-left: 35%;
+}
+
+.name-container{
+  padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 0px !important;
+}
+
+.rectangle{
+  margin-top: 30px;
+  border-bottom: 1px solid lightgray;
+  margin-left: 16px;
+    margin-right: 16px;
+}
+
+.confirm-button{
+  margin-top: 36px;
+  padding-left: 16px;
+    padding-right: 16px;
+}
+
+.confirm-button button{
+  width: 100%;
+  height: 50px;
+  background-color: #5fcf80;
+  border-radius: 2px;
+  border: none;
+}
+.textbox-container{
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+
+.textbox-container input{
+  border: 1px solid #cccccc;
+  width: 100%;
+  height: 36px;
+  border-radius: 3px;
+  background-color: #f9fafa !important;
+}
+.textbox-main{
+  padding-right: 0px !important;
+}
+
+.no-padding{
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+.textbox-container label{
+  font-weight: 500;
+}
+
+.terms-cond{
+  padding-left: 16px;
+    font-weight: 500;
+    font-size: x-small;
+    margin-top: 5px;
+    display: flex;
+}
+
+.term{
+  color: #44a5e1;
+  padding-left: 3px;
+}
