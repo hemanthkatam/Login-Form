@@ -94,6 +94,7 @@
   height: 36px;
   border-radius: 3px;
   background-color: #f9fafa !important;
+  padding-left: 7px;
 }
 .textbox-main{
   padding-right: 0px !important;
@@ -118,4 +119,23 @@
 .term{
   color: #44a5e1;
   padding-left: 3px;
+}
+
+.pointer-right{
+  width: 0;
+  height: 0;
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  border-left: 6px solid white;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+.button-text{
+  display: flex;
+  padding-left: 33%;
+}
+
+.termsConditions{
+  padding: 100px;
+  background-color: grey;
 }
