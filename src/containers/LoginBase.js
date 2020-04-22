@@ -40,8 +40,8 @@ class LoginBase extends React.Component {
     onSubmitHandler = () => {
         let { firstname, lastname, email, password } = this.state;
         let isError = false;
-        if (firstname === '' || lastname === '') {
-            alert('First name or Last name should not be empty.');
+        if (firstname === '' || lastname === '' || email === '' || password === '') {
+            alert('First name or Last name or Email or Password should not be empty.');
             isError = true;
         }
         if (email !== '' && !isError) {
@@ -57,7 +57,7 @@ class LoginBase extends React.Component {
                 isError = true;
             }
 
-        }
+        } 
         if (password.length < 8 && !isError) {
             alert('Password must be at least 8 characters long.');
             isError = true;
