@@ -9,6 +9,7 @@ function App() {
     <BrowserRouter>
       <Route exact path="/TermsandConditons" component={TermsandConditons} />
       <Route exact path="/" component={LoginBase} />
+      <p>learn react</p>
     </BrowserRouter>
 
   );
